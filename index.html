@@ -98,7 +98,7 @@ function performSearch() {
     const query = document.getElementById("searchInput").value.trim();
     if(query !== "") {
         // Use DuckDuckGo for safe searches
-        const url = "https://duckduckgo.com/?q=" + encodeURIComponent(query);
+        const url = "https://google.com/search?q=" + encodeURIComponent(query);
         window.location.href = url;
     }
 }
@@ -111,3 +111,4 @@ document.getElementById("searchInput").addEventListener("keydown", function(e) {
 
 </body>
 </html>
+
